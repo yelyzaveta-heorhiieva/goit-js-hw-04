@@ -8,7 +8,7 @@ function isEnoughCapacity(products, containerSize) {
         quantity += value;
     };
   
-    return quantity <= containerSize ? true : false 
+  return quantity <= containerSize; 
 }
 
 console.log(
